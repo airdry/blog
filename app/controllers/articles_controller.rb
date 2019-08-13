@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ArticlesController < ApplicationController
   def new
     @article = Article.new
@@ -5,12 +7,11 @@ class ArticlesController < ApplicationController
 
   def create
     @article = Article.new(article_params)
-
     if @article.save
-      flash[:notice] = "Article was successfully created"
+      flash[:notice] = 'Article was successfully created'
       redirect_to article_path(@article)
     else
-      render "new"
+      render 'new'
     end
   end
 
