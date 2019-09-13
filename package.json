@@ -7,6 +7,7 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
+    "react-color": "^2.17.3",
     "react-dom": "^16.9.0",
     "react-timestamp": "^5.1.0",
     "react_ujs": "^2.6.0"
