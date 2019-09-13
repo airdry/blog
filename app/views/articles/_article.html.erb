@@ -4,6 +4,7 @@
       <div class="well well-lg">
         <div class="article-title">
           <%= link_to article.title, article_path(article) %>
+          <%= react_component("Article", { title: article.title, description: "" }) %>
         </div>
         <div class="article-body">
           <%= truncate(article.description, length: 100) %>
