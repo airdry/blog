@@ -16,30 +16,31 @@ gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.3'
 gem 'sass-rails', '~> 5.0'
 gem 'sqlite3'
-gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
 gem 'will_paginate'
 
 group :development, :test do
-    gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
 
 group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
-  gem 'web-console', '>= 3.3.0'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'web-console', '>= 3.3.0'
 end
 
 group :test do
-  gem 'selenium-webdriver'
   gem 'chromedriver-helper'
+  gem 'selenium-webdriver'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'rails-controller-testing', '~> 1.0'
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-gem "webpacker", "~> 4.0"
+gem 'webpacker', '~> 4.0'
 
-gem "react-rails", "~> 2.6"
+gem 'react-rails', '~> 2.6'
+
+gem 'rubocop', '~> 0.74.0'
