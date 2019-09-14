@@ -30,6 +30,10 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
+group :production do
+  gem 'pg'
+end
+
 group :test do
   gem 'chromedriver-helper'
   gem 'selenium-webdriver'
