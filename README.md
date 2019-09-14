@@ -16,7 +16,7 @@ make tests
 
 ## List of users
 
-<table border="2">
+<table>
   <tr>
     <th>#</th>
     <th>Username</th>
