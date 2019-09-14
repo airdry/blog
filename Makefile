@@ -3,7 +3,7 @@ setup:
 		bin/setup
 		rails db:seed
 
-test:
+tests:
 		bin/rails test
 
 linter:
