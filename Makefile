@@ -1,6 +1,7 @@
 setup:
 		cp config/database.yml.example config/database.yml
 		bin/setup
+		rails db:seed
 
 test:
 		bin/rails test
