@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to alpha-blog 👋</h1>
+<h1 align="center">Welcome to Blog 👋</h1>
 <p>
 </p>
 
