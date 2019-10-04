@@ -44,7 +44,5 @@ gem 'rails-controller-testing', '~> 1.0'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'webpacker', '~> 4.0'
-
 gem 'react-rails', '~> 2.6'
-
 gem 'rubocop', '~> 0.74.0'

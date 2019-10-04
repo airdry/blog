@@ -1,5 +1,6 @@
 setup:
 		cp config/database.yml.example config/database.yml
+		yarn install
 		bin/setup
 		rails db:seed
 
@@ -13,4 +14,4 @@ linter-fix:
 		bundle exec rubocop --auto-correct
 
 
-.PHONY: test
+.PHONY: install
