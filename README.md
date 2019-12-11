@@ -8,6 +8,7 @@
 - Bootstrap
 - Yarn
 - React.js
+-PostgreSQL(for prod)
 
 ## Install
 
@@ -54,7 +55,7 @@ make tests
 
 👤 **Flyside**
 
-- Github: [@flyside](https://github.com/flyside)
+- Github: [@airdry](https://github.com/airdry)
 
 ## Show your support
 
