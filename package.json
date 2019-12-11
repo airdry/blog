@@ -2,19 +2,19 @@
   "name": "alpha-blog",
   "private": true,
   "dependencies": {
-    "@babel/preset-react": "^7.0.0",
-    "@rails/webpacker": "^4.0.7",
+    "@babel/preset-react": "^7.7.4",
+    "@rails/webpacker": "^4.2.2",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "prop-types": "^15.7.2",
-    "react": "^16.9.0",
+    "react": "^16.12.0",
     "react-color": "^2.17.3",
-    "react-dom": "^16.9.0",
+    "react-dom": "^16.12.0",
     "react-timestamp": "^5.1.0",
     "react_ujs": "^2.6.0"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.0.2",
-    "webpack-dev-server": "^3.8.0"
+    "webpack-dev-server": "^3.9.0"
   },
   "config": {
     "commitizen": {
