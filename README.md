@@ -53,7 +53,7 @@ make tests
 
 ## Author
 
-👤 **Flyside**
+👤 **Airdry**
 
 - Github: [@airdry](https://github.com/airdry)
 
